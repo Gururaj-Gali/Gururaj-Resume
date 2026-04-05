@@ -11,19 +11,31 @@ const navItems = [
 
 const skillGroups = [
   {
-    title: 'Web Development',
-    description:
-      'HTML, CSS, JavaScript, React.js, Node.js, Express.js, REST APIs, MySQL, MongoDB, Git, GitHub',
+    title: 'Programming',
+    items: [
+      { name: 'Python', level: 90, tag: 'PY' },
+      { name: 'SQL', level: 84, tag: 'SQ' },
+      { name: 'JavaScript', level: 78, tag: 'JS' },
+      { name: 'Java', level: 76, tag: 'JV' },
+    ],
   },
   {
-    title: 'Machine Learning',
-    description:
-      'Python, NumPy, Pandas, Scikit-learn, Data Preprocessing, Feature Engineering, Regression, Classification, Model Evaluation',
+    title: 'Web And Frontend',
+    items: [
+      { name: 'React.js', level: 80, tag: 'RE' },
+      { name: 'HTML5', level: 88, tag: 'HT' },
+      { name: 'CSS3', level: 85, tag: 'CS' },
+      { name: 'Flask', level: 72, tag: 'FL' },
+    ],
   },
   {
-    title: 'Data Analytics',
-    description:
-      'SQL, Excel, Data Cleaning, Exploratory Data Analysis (EDA), Data Visualization (Matplotlib, Seaborn, Power BI/Tableau), Statistical Analysis',
+    title: 'Data And BI',
+    items: [
+      { name: 'Pandas', level: 86, tag: 'PD' },
+      { name: 'Scikit-learn', level: 83, tag: 'SK' },
+      { name: 'Tableau', level: 75, tag: 'TB' },
+      { name: 'Power BI', level: 78, tag: 'PB' },
+    ],
   },
 ];
 
@@ -224,7 +236,7 @@ function App() {
         <section className="section" id="skills">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Skills</p>
-            <h2>Web Development, machine learning, and data analytics skills</h2>
+            <h2>Technical strengths across programming, analytics, and product building</h2>
           </div>
 
           <div className="skills-layout">
@@ -237,7 +249,24 @@ function App() {
                 <div className="card-top">
                   <h3>{group.title}</h3>
                 </div>
-                <p className="skill-description">{group.description}</p>
+
+                <div className="skills-list">
+                  {group.items.map((skill) => (
+                    <div className="skill-row" key={skill.name}>
+                      <div className="skill-meta">
+                        <span className="skill-tag">{skill.tag}</span>
+                        <div>
+                          <strong>{skill.name}</strong>
+                        </div>
+                      </div>
+                      <div
+                        className="progress-bar"
+                        aria-hidden="true"
+                        style={{ '--value': `${skill.level}%` }}
+                      />
+                    </div>
+                  ))}
+                </div>
               </article>
             ))}
           </div>
