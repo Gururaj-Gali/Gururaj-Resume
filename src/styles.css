@@ -424,9 +424,13 @@ button {
 
 .contact-item span {
   display: block;
-  font-size: 0.86rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+}
+
+.contact-item strong {
+  font-size: 0.9rem;
 }
 
 .contact-form {
@@ -441,7 +445,7 @@ button {
 }
 
 .contact-form span {
-  font-size: 0.92rem;
+  font-size: 0.82rem;
   font-weight: 600;
 }
 
@@ -450,11 +454,12 @@ button {
   width: 100%;
   border: 1px solid rgba(100, 182, 141, 0.16);
   border-radius: 18px;
-  padding: 14px 16px;
+  padding: 12px 14px;
   background: rgba(255, 255, 255, 0.84);
   color: var(--text);
   outline: none;
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+  font-size: 0.92rem;
 }
 
 .contact-form input:focus,
