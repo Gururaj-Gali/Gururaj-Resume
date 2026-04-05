@@ -193,15 +193,6 @@ function App() {
         <section className="section about-section" id="about">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">About Me</p>
-            <h2 className="section-title-medium">
-              Starting strong with
-              <br />
-              curiosity,
-              <br />
-              consistency, and a
-              <br />
-              builder mindset
-            </h2>
           </div>
 
           <div className="about-grid">
