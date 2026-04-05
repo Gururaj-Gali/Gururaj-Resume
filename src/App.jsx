@@ -142,7 +142,7 @@ function App() {
       <main>
         <section className="hero section" id="home">
           <div className="hero-copy reveal" style={{ '--delay': '0.05s' }}>
-            <p className="eyebrow">Aspiring Data Analyst / Machine Learning Enthusiast</p>
+            <p className="eyebrow">Aspiring professional passionate about technology</p>
             <h1>Gururaj Gali</h1>
             <p className="lead">
               I am a fresher in Computer Science who enjoys turning data into useful insights and
