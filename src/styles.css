@@ -312,7 +312,7 @@ button {
 
 .section-title-medium {
   font-size: clamp(1.28rem, 2.2vw, 1.72rem) !important;
-  max-width: 18ch;
+  max-width: 24ch;
   line-height: 1.2;
   text-wrap: balance;
 }

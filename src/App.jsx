@@ -193,7 +193,15 @@ function App() {
         <section className="section about-section" id="about">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">About Me</p>
-            <h2 className="section-title-medium">Starting strong with curiosity, consistency, and a builder mindset</h2>
+            <h2 className="section-title-medium">
+              Starting strong with
+              <br />
+              curiosity,
+              <br />
+              consistency, and a
+              <br />
+              builder mindset
+            </h2>
           </div>
 
           <div className="about-grid">
@@ -224,7 +232,15 @@ function App() {
         <section className="section" id="skills">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Skills</p>
-            <h2 className="section-title-medium">Technical strengths across web development, machine learning, and analytics</h2>
+            <h2 className="section-title-medium">
+              Technical strengths
+              <br />
+              across web development,
+              <br />
+              machine learning,
+              <br />
+              and analytics
+            </h2>
           </div>
 
           <div className="skills-layout">
@@ -247,7 +263,15 @@ function App() {
         <section className="section" id="projects">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Projects</p>
-            <h2 className="section-title-medium">Portfolio work focused on prediction, classification, and user-friendly apps</h2>
+            <h2 className="section-title-medium">
+              Portfolio work focused
+              <br />
+              on prediction,
+              <br />
+              classification, and
+              <br />
+              user-friendly apps
+            </h2>
           </div>
 
           <div className="project-grid">
@@ -273,7 +297,15 @@ function App() {
         <section className="section resume-section" id="resume">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Resume</p>
-            <h2 className="section-title-medium">Education, certifications, and a downloadable version of my profile</h2>
+            <h2 className="section-title-medium">
+              Education,
+              <br />
+              certifications, and a
+              <br />
+              downloadable version of
+              <br />
+              my profile
+            </h2>
           </div>
 
           <div className="resume-grid">
@@ -317,7 +349,15 @@ function App() {
         <section className="section contact-section" id="contact">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Contact</p>
-            <h2 className="section-title-medium">Let&apos;s connect for internships, projects, and entry-level opportunities</h2>
+            <h2 className="section-title-medium">
+              Let&apos;s connect for
+              <br />
+              internships, projects,
+              <br />
+              and entry-level
+              <br />
+              opportunities
+            </h2>
           </div>
 
           <div className="contact-grid">
