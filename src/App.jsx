@@ -264,13 +264,7 @@ function App() {
           <div className="section-heading section-heading-centered reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Projects</p>
             <h2 className="section-title-medium section-title-wide">
-              Portfolio work focused
-              <br />
-              on prediction,
-              <br />
-              classification, and
-              <br />
-              user-friendly apps
+              Portfolio work focused on prediction, classification, and user-friendly apps
             </h2>
           </div>
 

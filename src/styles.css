@@ -327,9 +327,11 @@ button {
 }
 
 .section-title-wide {
-  max-width: min(100%, 34ch);
+  width: 100%;
+  max-width: min(100%, 52rem);
   margin-inline: auto !important;
   line-height: 1.18;
+  text-wrap: pretty;
 }
 
 .about-grid,
