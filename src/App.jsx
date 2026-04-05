@@ -313,15 +313,6 @@ function App() {
         <section className="section contact-section" id="contact">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Contact</p>
-            <h2 className="section-title-medium">
-              Let&apos;s connect for
-              <br />
-              internships, projects,
-              <br />
-              and entry-level
-              <br />
-              opportunities
-            </h2>
           </div>
 
           <div className="contact-grid">
