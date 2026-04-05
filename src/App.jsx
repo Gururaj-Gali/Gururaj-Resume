@@ -270,15 +270,6 @@ function App() {
         <section className="section resume-section" id="resume">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Resume</p>
-            <h2 className="section-title-medium">
-              Education,
-              <br />
-              certifications, and a
-              <br />
-              downloadable version of
-              <br />
-              my profile
-            </h2>
           </div>
 
           <div className="resume-grid">
