@@ -175,14 +175,6 @@ function App() {
                 Download Resume
               </a>
             </div>
-
-            <div className="hero-badges">
-              <span>Python</span>
-              <span>SQL</span>
-              <span>React.js</span>
-              <span>Tableau</span>
-              <span>Power BI</span>
-            </div>
           </div>
 
           <div className="hero-panel reveal" style={{ '--delay': '0.15s' }}>
