@@ -354,61 +354,16 @@ button {
   font-size: 1.45rem;
 }
 
-.skills-list {
-  display: grid;
-  gap: 18px;
+.skill-description {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.85;
 }
 
-.skill-row {
-  display: grid;
-  gap: 10px;
-}
-
-.skill-meta {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 12px;
-  align-items: center;
-}
-
-.skill-tag {
-  width: 44px;
-  height: 44px;
-  display: grid;
-  place-items: center;
-  border-radius: 16px;
-  background: linear-gradient(135deg, rgba(168, 230, 207, 0.92), rgba(223, 248, 235, 0.96));
-  font-weight: 700;
-  color: var(--primary-deep);
-}
-
-.skill-meta strong,
 .timeline strong,
 .contact-item strong {
   display: block;
   color: var(--text);
-}
-
-.skill-meta p {
-  margin: 4px 0 0;
-  font-size: 0.92rem;
-}
-
-.progress-bar {
-  position: relative;
-  height: 11px;
-  overflow: hidden;
-  border-radius: 999px;
-  background: rgba(168, 230, 207, 0.28);
-}
-
-.progress-bar::after {
-  content: '';
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: var(--value);
-  border-radius: inherit;
-  background: linear-gradient(90deg, var(--primary-deep), #7cc7a1);
 }
 
 .project-grid {
