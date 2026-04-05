@@ -90,6 +90,7 @@ function App() {
     email: '',
     message: '',
   });
+  const resumeUrl = `${import.meta.env.BASE_URL}GURURAJ_GALI_RESUME.pdf`;
 
   useEffect(() => {
     const sections = navItems
@@ -171,7 +172,7 @@ function App() {
               <a className="button primary" href="#projects">
                 View Projects
               </a>
-              <a className="button secondary" href="/GURURAJ_GALI_RESUME.pdf" download>
+              <a className="button secondary" href={resumeUrl} download>
                 Download Resume
               </a>
             </div>
