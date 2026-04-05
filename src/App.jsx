@@ -44,21 +44,18 @@ const projects = [
     title: 'Predictive Modeling of Power Demand',
     description:
       'Built a forecasting platform that predicts hourly and daily electricity demand using historical energy and weather data.',
-    technologies: ['Python', 'Flask', 'JavaScript', 'Machine Learning', 'Time-Series Forecasting'],
     href: 'https://github.com/Gururaj-Gali/Electricity-consumption.git',
   },
   {
     title: 'Butterfly Species Identification',
     description:
       'Created an image classification system using deep learning and computer vision techniques to identify butterfly species with high accuracy.',
-    technologies: ['Python', 'CNN', 'Transfer Learning', 'Computer Vision', 'JavaScript'],
     href: 'https://github.com/Gururaj-Gali/Butterfly',
   },
   {
     title: 'Museum Ticket Booking Chatbot',
     description:
       'Developed a chatbot-based booking experience for museum visitors with an interactive React interface and MongoDB-backed ticket flow.',
-    technologies: ['React 18', 'JavaScript', 'HTML', 'CSS', 'MongoDB'],
     href: 'https://github.com/Gururaj-Gali/MP.git',
   },
 ];
