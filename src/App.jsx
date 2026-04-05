@@ -223,15 +223,6 @@ function App() {
         <section className="section" id="skills">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Skills</p>
-            <h2 className="section-title-medium">
-              Technical strengths
-              <br />
-              across web development,
-              <br />
-              machine learning,
-              <br />
-              and analytics
-            </h2>
           </div>
 
           <div className="skills-layout">
