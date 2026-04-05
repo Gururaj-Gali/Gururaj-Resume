@@ -209,7 +209,6 @@ button {
 }
 
 .hero-actions,
-.hero-badges,
 .chip-row,
 .footer-links {
   display: flex;
@@ -255,11 +254,6 @@ button {
   background: var(--primary-soft);
 }
 
-.hero-badges {
-  margin-top: 28px;
-}
-
-.hero-badges span,
 .chip {
   padding: 10px 14px;
   border-radius: 999px;
@@ -626,7 +620,6 @@ button {
   }
 
   .hero-actions,
-  .hero-badges,
   .chip-row,
   .footer-links {
     gap: 10px;
