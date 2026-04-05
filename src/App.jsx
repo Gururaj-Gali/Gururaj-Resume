@@ -294,13 +294,6 @@ function App() {
                   <h3>{project.title}</h3>
                 </div>
                 <p>{project.description}</p>
-                <div className="chip-row">
-                  {project.technologies.map((item) => (
-                    <span className="chip" key={item}>
-                      {item}
-                    </span>
-                  ))}
-                </div>
                 <a className="button tertiary" href={project.href} rel="noreferrer" target="_blank">
                   View on GitHub
                 </a>
