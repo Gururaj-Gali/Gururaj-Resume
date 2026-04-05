@@ -305,6 +305,15 @@ button {
   margin-bottom: 16px;
 }
 
+.section-heading-centered {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.section-heading-centered .eyebrow {
+  display: inline-block;
+}
+
 .section-heading h2 {
   font-size: clamp(1.8rem, 4vw, 2.8rem);
   max-width: 16ch;
@@ -315,6 +324,12 @@ button {
   max-width: 24ch;
   line-height: 1.2;
   text-wrap: balance;
+}
+
+.section-title-wide {
+  max-width: min(100%, 34ch);
+  margin-inline: auto !important;
+  line-height: 1.18;
 }
 
 .about-grid,
