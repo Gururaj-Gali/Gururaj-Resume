@@ -257,7 +257,6 @@ function App() {
                         <span className="skill-tag">{skill.tag}</span>
                         <div>
                           <strong>{skill.name}</strong>
-                          <p>Practical experience through projects and coursework</p>
                         </div>
                       </div>
                       <div
