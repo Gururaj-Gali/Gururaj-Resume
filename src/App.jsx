@@ -243,7 +243,7 @@ function App() {
         </section>
 
         <section className="section" id="projects">
-          <div className="section-heading section-heading-centered reveal" style={{ '--delay': '0.05s' }}>
+          <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
             <p className="eyebrow">Projects</p>
           </div>
 
