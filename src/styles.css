@@ -318,6 +318,11 @@ button {
   max-width: 16ch;
 }
 
+.section-title-medium {
+  font-size: clamp(1.5rem, 2.8vw, 2.05rem) !important;
+  max-width: 26ch;
+}
+
 .about-grid,
 .resume-grid,
 .contact-grid {
