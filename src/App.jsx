@@ -244,7 +244,7 @@ function App() {
 
         <section className="section" id="projects">
           <div className="section-heading reveal" style={{ '--delay': '0.05s' }}>
-            <p className="eyebrow">Projects</p>
+            <p className="eyebrow eyebrow-transparent">Projects</p>
           </div>
 
           <div className="project-grid">
